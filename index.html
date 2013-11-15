@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="center">
+          <div class="logo"></div>
+
+          <div id="tabs">
+            <ul>
+              <li><a href="#game">The Game</a></li>
+              <li><a href="#cats">The Cats</a></li>
+              <li><a href="#competition">The Competition</a></li>
+            </ul>
+
+            <!-- game rules etc. -->
+            <div id="game">
+              <h1>Game goal</h1>
+              <p>Find the most cats within the Fop22 building within a time limit</p>
+
+              <h1>Rules</h1>
+              <ul>
+                <li>When you find a cat, take a photo and share in the whatsapp channel</li>
+                <li>When you take the picture, make sure you mask its location from the other players, by shooting as little as possible (or no) surrounding area</li>
+                <li>When you feel someone has been left out of the competition, PM me the contact details and I will add him/her to the group</li>
+                <li>You can only post every cat once</li>
+                <li>You can only post official game cats. So, no posting your own cat pictures! Official game cats are watermarked so cheaters will be found and dealt with accordingly :p</li>
+                <li>You have to have access to Fop22 to participate</li>
+              </ul>
+
+              <h1>The game can end 2 ways</h1>
+              <ol>
+                <li>Time limit. The game ends Friday 22nd of November at 15:00. A final count will be done by our team of judges. Results will be in around 17:00. After which we will celebrate with drinks at a location to be further specified.</li>
+                <li>Sudden death. When a player has collected all cats in the game he/she wins. The game is over. However, I don’t see this happening any time soon; it took Florian about a month to find the cat I hid near his work area :p </li>
+              </ol>
+
+              <h1>Prize</h1>
+              <p>Not sure yet</p>
+
+              <h1>Additional information</h1>
+              <ul>
+                <li>Toilets are off limits</li>
+                <li>During the game, some hints may be dropped in the whatsapp channel so be sure to follow it closely</li>
+                <li>In case the game ends in sudden death, there will also be drinks on Friday the 22nd of November!</li>
+              </ul>
+
+              <h2>That’s it! Have fun in this exciting game</h2>
+
+            </div>
+
+            <div id="cats">
+              <h1>The Cats</h1>
+              <h2>Level 1 (7 cats)</h2>
+
+              <table id="cats-table">
+                <tr>
+                  <td><img src="img/cats/brownpapercat.jpg"</td>
+                  <td>
+                    <h3>Brownpaper Cat</h3>
+                    <p>Brownpaper cat is a shy cat. Usually, he likes to hide in - you guessed it - brown paper! However, today he is hiding in plain sight.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/catfight.jpg"</td>
+                  <td>
+                    <h3>Catfight</h3>
+                    <p>Watch out when you see these kittens. Their claws are very sharp :) HGrrrr </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/gangstercats.jpg"</td>
+                  <td>
+                    <h3>Gangster Cats</h3>
+                    <p>These are two pussies you don't want to mess with</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/grumpy.jpg"</td>
+                  <td>
+                    <h3>Grumpy</h3>
+                    <p>Aaaaah... classic Grumpy Cat!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/happycat.jpg"</td>
+                  <td>
+                    <h3>Happy Cat</h3>
+                    <p>Just look at that face! Doesn't he look happy?</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/lilbub.jpg"</td>
+                  <td>
+                    <h3>Lil' Bub</h3>
+                    <p>What's not to like about this little fellow? Lil Bub, one of our finest specimen</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="img/cats/nyangoggles.jpg"</td>
+                  <td>
+                    <h3>Nyan Goggles Cat</h3>
+                    <p>He's definitely the coolest cat in the building. Dreaming away looking at the sky, he sees Nyancats fly through space. What a sight. He likes to get high</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- Leaderboard -->
+            <div id="competition">
+              <h1>The Competition!</h1>
+
+              <h3>Last updated: 15th of November 2013 10:30</h3>
+
+              <table id="score-table">
+                <thead>
+                  <tr>
+                    <th>Position</th>
+                    <th>Name</th>
+                    <th># Cats found</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Declan</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Nienke</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Leanda</td>
+                    <td>2</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Deepti</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Joke</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Jose</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Paul</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Bart-Jan</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Chiel</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Diederik</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Don</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Eddy</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Erwin</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Florian</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Hans A.</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Lena</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Oliver</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Silvan</td>
+                    <td>0</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+              <h1>Additional Awards</h1>
+
+              <ul>
+                <li>First cat trophey - Deepti</li>
+                <!--
+                <li>Early cat catches the worm trophey (Cat found before 8:00) - </li>
+                <li>Creature of the night (Cat found after 19:00) - </li>
+                <li>Gotto catch 'em all (3 cats in a row in the channel) - </li>
+                <li>Cats 22 (found all cats on Fop 22) - </li>
+                -->
+              </ul>
+
+            </div>
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics -->
+        <script>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-45747225-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+          // set tabs
+            $(function() {
+              $( "div#tabs" ).tabs();
+            });
+
+        </script>
+
+    </body>
+</html>
