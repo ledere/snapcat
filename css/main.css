@@ -208,6 +208,11 @@ table.cats-table tr td {
 table.score-table {
   width: 100%;
 }
+
+table.score-table thead tr td {
+  font-weight: bold;
+}
+
 table.score-table tr td {
   text-align: center;
 }
