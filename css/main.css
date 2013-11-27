@@ -202,13 +202,13 @@ div.logo {
 }
 
 
-table#cats-table tr td {
+table.cats-table tr td {
   padding: 10px;
 }
-table#score-table {
+table.score-table {
   width: 100%;
 }
-table#score-table tr td {
+table.score-table tr td {
   text-align: center;
 }
 
